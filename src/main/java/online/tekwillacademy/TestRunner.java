@@ -37,6 +37,8 @@ public class TestRunner {
 
         accountPage.navigateToLoginPage();
 
+
+
         LoginPage loginPage = new LoginPage(driver);
         loginPage.completeTheLoginForm(randomEmail, "Password1234!");
         loginPage.clickOnContinueButton();
