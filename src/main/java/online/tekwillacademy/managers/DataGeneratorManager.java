@@ -11,4 +11,6 @@ public class DataGeneratorManager {
     public static String getRandomName(){
         return faker.name().name();
     }
+
+   // public static String getRandomPassword() { return faker (int 10, int 20)}
 }
