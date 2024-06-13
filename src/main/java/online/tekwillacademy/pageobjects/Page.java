@@ -22,7 +22,7 @@ public abstract class Page {
     public void navigateToRegisterPage() {
         userDropDownIcon.click();
         registerOption.click();
-        System.out.println("The register option was selected");
+        System.out.println("The register option was selected from Header");
     }
 
     public void navigateToLoginPage() {
