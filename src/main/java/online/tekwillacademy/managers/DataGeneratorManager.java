@@ -8,9 +8,9 @@ public class DataGeneratorManager {
     public static String getRandomEmail(){
         return faker.internet().emailAddress();
     }
-    public static String getRandomName(){
-        return faker.name().name();
-    }
+    public static String getRandomName() { return faker.name().name(); }
 
-   // public static String getRandomPassword() { return faker (int 10, int 20)}
+    public static String getRandomPassword(int i, int i1) {
+        return  faker.internet().password();
+    }
 }
