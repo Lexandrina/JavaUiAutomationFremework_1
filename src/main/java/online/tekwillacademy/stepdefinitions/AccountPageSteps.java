@@ -5,7 +5,7 @@ import online.tekwillacademy.managers.DriverManager;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
 
-public class AccountPage {
+public class AccountPageSteps {
     WebDriver driver = DriverManager.getInstance().getDriver();
     @Then("The Page URL contains the {string} keyword")
     public void thePageURLContainsTheKeyword(String collectedStringValue) throws InterruptedException {
